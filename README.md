@@ -24,9 +24,15 @@ Add them to your project’s build.gradle.
 1. common-validator library will be used to validate the input/original URL
 2. Google’s guava library will be used to generate a Murmur3 based unique hash key for original URL. This key will be treated as the shorter URL.
 
+# Setting up Redis
+![Screenshot (47)](https://user-images.githubusercontent.com/58344010/186830304-ee6605d1-2e47-4d54-9b4d-fc3669fdd0f3.png)
+
+
+
 # Testing using Postman
 Now let’s get to the part where we will validate above code. I’ll be using Postman as a HTTP client to test the application. 
 However, you can decide to use any other client that you are comfortable with.
 
 ![Screenshot (46)](https://user-images.githubusercontent.com/58344010/186829486-64f8d2dc-c05d-45a7-8033-797b6cf03e6d.png)
+
 
