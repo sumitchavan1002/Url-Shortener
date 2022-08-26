@@ -25,6 +25,15 @@ Add them to your project’s build.gradle.
 2. Google’s guava library will be used to generate a Murmur3 based unique hash key for original URL. This key will be treated as the shorter URL.
 
 # Setting up Redis
+## Configure Redis
+We need to define the configuration in order to store our JSON object in redis. Each url entry will be defined as :
+
+{
+    "key": 123,
+    "url": "www.abc.url"
+    "created_at": "2021-08-10T23:59:59Z"
+}
+
 ![Screenshot (47)](https://user-images.githubusercontent.com/58344010/186830304-ee6605d1-2e47-4d54-9b4d-fc3669fdd0f3.png)
 
 
