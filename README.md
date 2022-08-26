@@ -7,8 +7,8 @@
 
 
 
-## Bootstrapping application using Spring Initializr
-Let’s use Spring Initializr to bootstrap our application. Fill the form as shown below and click on Generate Project to download the project. Here I have included Spring MVC and Spring Data Redis as dependencies.
+# Bootstrapping application using Spring Initializr
+Let’s use Spring Initializr to bootstrap our application. Fill the form as shown below and click on Generate Project to download the project. Here I have included ### Spring MVC and ### Spring Data Redis as dependencies.
 
 
 
